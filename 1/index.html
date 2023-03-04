@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="wizard.png" alt="" id="wizard" />
+      <img
+        id="background"
+        src="https://4kwallpapers.com/images/wallpapers/purple-planet-saturn-rings-nebula-galaxy-astronomy-stars-4480x2520-6416.jpg"
+        alt=""
+      />
+      <h1>Magic Number Game</h1>
+      <p>Can you guess the magic number between 1 and 100?</p>
+      <form>
+        <input
+          type="text"
+          id="guess"
+          name="guess"
+          pattern="[0-9]+"
+          placeholder="Enter your guess"
+          required
+        />
+        <input type="submit" value="Submit" />
+      </form>
+      <p id="result"></p>
+      <p class="guesses">Guesses: <span id="guesses">0</span></p>
+    </div>
+  </body>
+  <script src="main.js
+  "></script>
+</html>
